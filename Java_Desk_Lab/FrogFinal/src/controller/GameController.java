@@ -268,7 +268,7 @@ public class GameController implements KeyListener {
     }
 
     public void frogMove() {
-        yForg = (int) (yFalling - speedJump * timeFly + fallRange * timeFly * timeFly / 2);
+        yForg;
         timeFly++;
     }
 
